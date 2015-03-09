@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Species:</strong>
+  <%= @fruit.species %>
+</p>
+
+<p>
+  <strong>Organic:</strong>
+  <%= @fruit.organic %>
+</p>
+
+<%= link_to 'Edit', edit_fruit_path(@fruit) %> |
+<%= link_to 'Back', fruits_path %>
