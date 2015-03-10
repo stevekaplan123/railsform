@@ -4,10 +4,7 @@ class FruitsController < ApplicationController
 
 # get /fruits/search 
   def search
-    @fruit = Fruit.where(species: params[:species])
-    respond_to do |format|
-      format.html { redirect_to @fruit, notice: 'Fruit found.'}
-   end
+    @fruits = Fruit.where(species: params[:species])
   end
 
   # GET /fruits
