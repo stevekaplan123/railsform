@@ -1,4 +1,4 @@
-<%= form_tag("/fruits/search", method: "get") do %>
+<%= form_tag("/fruits/search.json", method: "get") do %>
   <%= label_tag(:species, "Search for:") %>
   <%= text_field_tag(:species) %>
   <%= submit_tag("Search") %>
