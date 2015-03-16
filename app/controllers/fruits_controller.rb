@@ -4,10 +4,26 @@ class FruitsController < ApplicationController
 
 # get /fruits/search 
   def search
-    @fruit = Fruit.where(species: params[:species])
-    respond_to do |format|
-      format.html { redirect_to @fruit, notice: 'Fruit found.'}
-   end
+  end
+
+  #post /fruits/search
+  def list
+    puts "*************"
+    puts params
+
+    organic_val=false
+    if params[:organic]=="true"
+        organic_val = true
+    end
+
+    if params[:and_or]=="AND"
+        @fruits = Fruit.where(species: params[:species], organic: organic_val)
+    else
+        @fruits = Fruit.arel_table
+        species_fruits = @fruits[:species].eq(params[:species])
+        organic_fruits = @fruits[:organic].eq(organic_val)
+        @fruits = Fruit.where(species_fruits.or(organic_fruits))
+    end
   end
 
   # GET /fruits

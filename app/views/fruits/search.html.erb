@@ -1,6 +1,36 @@
-<%= form_tag("/fruits/search", method: "get") do %>
-  <%= label_tag(:species, "Search for:") %>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <%= form_tag("/fruits/search", method: "post") do %>
+
+
+
+  <%= label_tag(:species, "Search by species:") %>
   <%= text_field_tag(:species) %>
+
+
+<li class="dropdown">      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Species <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a onclick="document.getElementById('species').value='apple'">Apple</a></li>
+                            <li><a onclick="document.getElementById('species').value='orange'">Orange</a></li>
+                            <li><a onclick="document.getElementById('species').value='banana'">Banana</a></li>
+                            <li><a onclick="document.getElementById('species').value='pineapple'">Pineapple</a></li>
+                        </ul>
+                    </li><br><br><br><br>
+    <%= label_tag(:and_or, "AND or OR") %>
+  <%= text_field_tag(:and_or) %>
+  <%= radio_button_tag(:organic, "true") %>
+<%= label_tag(:organic, "Organic") %>
+<%= radio_button_tag(:organic, "false") %>
+<%= label_tag(:organic, "Not organic") %>
+
+  <li class="dropdown">      <a href="#" data-toggle="dropdown" class="dropdown-toggle">--Condition-- <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a onclick="document.getElementById('and_or').value='AND'">AND</a></li>
+                            <li><a onclick="document.getElementById('and_or').value='OR'">OR</a></li>
+                        </ul>
+                    </li>
   <%= submit_tag("Search") %>
 <% end %>
+
 

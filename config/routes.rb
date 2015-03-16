@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-
   get 'fruits/search' => 'fruits#search'
+  post 'fruits/search' => 'fruits#list'
 
   resources :fruits
 

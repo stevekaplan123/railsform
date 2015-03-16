@@ -11,13 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150309215701) do
+ActiveRecord::Schema.define(version: 20150316161039) do
 
   create_table "fruits", force: :cascade do |t|
     t.string   "species"
     t.boolean  "organic"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.string   "title"
+    t.text     "description"
+    t.text     "owner"
+    t.integer  "type_id"
+  end
+
+  create_table "types", force: :cascade do |t|
+    t.string "title"
+    t.text   "description"
   end
 
 end

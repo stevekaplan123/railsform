@@ -383,3 +383,1565 @@ NoMethodError (undefined method `to_model' for #<ActiveRecord::Relation []>):
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (29.9ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2015-03-10 17:38:39 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/events"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (28.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (24.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (51.8ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2015-03-10 17:38:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/events"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (18.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (40.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-10 17:38:43 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-10 17:38:43 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-10 17:38:45 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 202ms (Views: 191.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fruits-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-10 17:38:45 -0400
+
+
+Started GET "/fruits/" for 127.0.0.1 at 2015-03-10 17:38:46 -0400
+Processing by FruitsController#index as HTML
+  [1m[35mFruit Load (0.2ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/fruits-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-10 17:38:46 -0400
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-10 17:38:48 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 95ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fruits-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-10 17:38:48 -0400
+
+
+Started GET "/fruits/search.json?utf8=%E2%9C%93&species=apple&commit=Search" for 127.0.0.1 at 2015-03-10 17:38:51 -0400
+Processing by FruitsController#search as JSON
+  Parameters: {"utf8"=>"✓", "species"=>"apple", "commit"=>"Search"}
+  Rendered fruits/search.json.jbuilder (3.9ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-10 17:38:53 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-10 17:39:14 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 53ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fruits-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-10 17:39:14 -0400
+
+
+Started GET "/fruits/search.json?utf8=%E2%9C%93&species=apple&commit=Search" for 127.0.0.1 at 2015-03-10 17:39:16 -0400
+Processing by FruitsController#search as JSON
+  Parameters: {"utf8"=>"✓", "species"=>"apple", "commit"=>"Search"}
+  [1m[36mFruit Load (0.4ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?[0m  [["species", "apple"]]
+  Rendered fruits/search.json.jbuilder (18.6ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/items?utf8=%E2%9C%93&search=TA&commit=Search" for 127.0.0.1 at 2015-03-12 20:10:37 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/items"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/jacob/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/jacob/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/jacob/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.2ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.0ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.3ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (18.8ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (37.1ms)
+
+
+Started GET "/fruit" for 127.0.0.1 at 2015-03-12 20:11:01 -0400
+
+ActionController::RoutingError (No route matches [GET] "/fruit"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/jacob/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/jacob/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/jacob/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.0ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (17.9ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /home/jacob/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (38.4ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-12 20:11:03 -0400
+Processing by FruitsController#index as HTML
+  [1m[35mFruit Load (0.2ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 511ms (Views: 505.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/fruits-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-12 20:11:04 -0400
+
+
+Started GET "/assets/scaffolds-c9a3b9246c8109aa568bd65e0d99146b.css?body=1" for 127.0.0.1 at 2015-03-12 20:11:04 -0400
+
+
+Started GET "/assets/application-535c114a85df9fac190f15a7ad2ede69.css?body=1" for 127.0.0.1 at 2015-03-12 20:11:04 -0400
+
+
+Started GET "/assets/fruits-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-12 20:11:04 -0400
+
+
+Started GET "/fruits/1/edit" for 127.0.0.1 at 2015-03-12 20:11:07 -0400
+Processing by FruitsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFruit Load (0.2ms)[0m  [1mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered fruits/_form.html.erb (10.0ms)
+  Rendered fruits/edit.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 66ms (Views: 59.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/fruits/1" for 127.0.0.1 at 2015-03-12 20:11:10 -0400
+Processing by FruitsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0AjXm3aLztIJESNaUax2h2f0jWmACkTpgrDpszDCmzqol6Eh6evszrY7aAaoTMFGTLBJmolyEHda0YJSD9LDoA==", "fruit"=>{"species"=>"apple", "organic"=>"0"}, "commit"=>"Update Fruit", "id"=>"1"}
+  [1m[35mFruit Load (0.1ms)[0m  SELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "fruits" SET "organic" = ?, "updated_at" = ? WHERE "fruits"."id" = ?  [["organic", "f"], ["updated_at", "2015-03-13 00:11:10.913853"], ["id", 1]]
+  [1m[36m (285.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/fruits/1
+Completed 302 Found in 291ms (ActiveRecord: 285.7ms)
+
+
+Started GET "/fruits/1" for 127.0.0.1 at 2015-03-12 20:11:11 -0400
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFruit Load (0.1ms)[0m  SELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered fruits/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-12 20:11:13 -0400
+Processing by FruitsController#index as HTML
+  [1m[36mFruit Load (0.3ms)[0m  [1mSELECT "fruits".* FROM "fruits"[0m
+  Rendered fruits/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2015-03-12 20:11:14 -0400
+Processing by FruitsController#new as HTML
+  Rendered fruits/_form.html.erb (3.4ms)
+  Rendered fruits/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits" for 127.0.0.1 at 2015-03-12 20:11:43 -0400
+Processing by FruitsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3u3ykLWWhEF47ZGCbx2+DEs8leTSxsUe8lM1a44NdJGmcoQqKvamXcfH2t6W/QnNYHhRF9u+kYAqMl6KsR0sCw==", "fruit"=>{"species"=>"kumquat", "organic"=>"1"}, "commit"=>"Create Fruit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["species", "kumquat"], ["organic", "t"], ["created_at", "2015-03-13 00:11:43.578679"], ["updated_at", "2015-03-13 00:11:43.578679"]]
+  [1m[35m (245.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/fruits/2
+Completed 302 Found in 252ms (ActiveRecord: 246.4ms)
+
+
+Started GET "/fruits/2" for 127.0.0.1 at 2015-03-12 20:11:43 -0400
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFruit Load (0.2ms)[0m  [1mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered fruits/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-12 20:12:03 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search.json?utf8=%E2%9C%93&species=apple&commit=Search" for 127.0.0.1 at 2015-03-12 20:12:07 -0400
+Processing by FruitsController#search as JSON
+  Parameters: {"utf8"=>"✓", "species"=>"apple", "commit"=>"Search"}
+  [1m[35mFruit Load (0.2ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?  [["species", "apple"]]
+  Rendered fruits/search.json.jbuilder (3.5ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttributesToFruits (20150316160211)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttributesToFruits (20150316160211)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttributesToFruits (20150316160211)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttributesToFruits (20150316160211)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (9.1ms)[0m  [1mALTER TABLE "fruits" ADD "title" varchar[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "fruits" ADD "description" text
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "fruits" ADD "owner" text[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "fruits" ADD "type_id" integer
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150316160211"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to Table (20150316161039)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "fruits" ADD "title" varchar[0m
+SQLite3::SQLException: duplicate column name: title: ALTER TABLE "fruits" ADD "title" varchar
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to Table (20150316161039)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "types" ADD "title" varchar[0m
+SQLite3::SQLException: no such table: types: ALTER TABLE "types" ADD "title" varchar
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to Table (20150316161039)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "types" ADD "title" varchar[0m
+SQLite3::SQLException: no such table: types: ALTER TABLE "types" ADD "title" varchar
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to Table (20150316161039)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to Table (20150316161039)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "types" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150316161039"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (9.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.7ms)[0m  select sqlite_version(*)
+  [1m[36m (1.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateFruits (20150309215701)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "fruits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "species" varchar, "organic" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150309215701"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Migrating to AddAttributesToFruits (20150316160211)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "fruits" ADD "title" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "fruits" ADD "description" text[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "fruits" ADD "owner" text
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "fruits" ADD "type_id" integer[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150316160211"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to Table (20150316161039)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "types" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150316161039"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "f"], ["type_id", 915], ["description", "[\"Autem maiores tenetur dicta culpa et.\", \"Numquam ipsam ut quas.\", \"Iusto molestiae earum sit velit culpa.\", \"Consequatur repudiandae qui id odit minima soluta vero.\", \"Non quia quidem.\", \"Veritatis perferendis doloribus est ipsam.\", \"Possimus nemo inventore recusandae velit eaque nam.\", \"Dolores quas fuga molestias aspernatur provident excepturi.\", \"Occaecati omnis quo voluptatem cum atque.\", \"Ab ut exercitationem accusantium tenetur.\"]"], ["owner", "Kendall Bechtelar"], ["title", "Fantastic Rubber Computer"], ["created_at", "2015-03-16 17:06:35.718026"], ["updated_at", "2015-03-16 17:06:35.718026"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "f"], ["type_id", 831], ["description", "[\"Vel libero sed error.\", \"Cumque officia nostrum.\", \"Delectus possimus quod adipisci exercitationem et facilis.\", \"Error architecto aut qui dolore velit quos.\", \"Nobis vitae a ea odio magni voluptatum officia.\", \"Est non enim veniam.\", \"Voluptatem doloremque rerum qui neque est rerum dolorum.\", \"Libero omnis repellat incidunt voluptatem asperiores.\", \"Vero odio voluptatibus aut sint qui.\", \"Aperiam sequi nam nisi expedita.\"]"], ["owner", "Abdullah King"], ["title", "Small Concrete Chair"], ["created_at", "2015-03-16 17:06:35.726309"], ["updated_at", "2015-03-16 17:06:35.726309"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "f"], ["type_id", 700], ["description", "[\"Itaque incidunt eos in enim cupiditate laboriosam porro.\", \"Minima natus et dolor.\", \"Esse minima necessitatibus voluptas.\", \"Consequatur aut placeat.\", \"Ipsa necessitatibus excepturi.\", \"Consequuntur sequi maxime.\", \"Est veniam laboriosam beatae quia.\", \"Velit dolores voluptatem sit et.\", \"Dolorem sit beatae.\", \"Est sint voluptas non corporis reprehenderit consequuntur.\"]"], ["owner", "Nigel Kovacek"], ["title", "Ergonomic Concrete Gloves"], ["created_at", "2015-03-16 17:06:35.730192"], ["updated_at", "2015-03-16 17:06:35.730192"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "t"], ["type_id", 837], ["description", "[\"Rerum et eaque magnam exercitationem et consequuntur harum.\", \"Rerum ut ut est qui fuga aut.\", \"Facilis quas autem molestiae eveniet quam rerum enim.\", \"Aut illo ea.\", \"Aut voluptatibus quia illo voluptas tempora qui rerum.\", \"In consequatur ut cupiditate.\", \"Ab sit consequatur.\", \"Aut nobis neque est repellendus excepturi et sint.\", \"Nemo ut eum consequuntur recusandae et vel consectetur.\", \"Autem nam quis.\"]"], ["owner", "Maymie Goyette"], ["title", "Practical Cotton Shoes"], ["created_at", "2015-03-16 17:06:35.734378"], ["updated_at", "2015-03-16 17:06:35.734378"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "apple"], ["organic", "f"], ["type_id", 121], ["description", "[\"Enim at qui omnis placeat laudantium.\", \"Adipisci non in aliquid.\", \"Omnis facilis molestiae nulla ad quod vero quo.\", \"Deleniti eos dolor et delectus.\", \"Quis sit autem maxime temporibus.\", \"Voluptate sunt enim omnis consectetur aliquam magnam.\", \"Adipisci cum architecto sed consequatur minus error.\", \"In facilis ullam voluptas voluptatibus.\", \"Occaecati aperiam quas voluptate.\", \"Quos autem aut.\"]"], ["owner", "Mr. Kathryne Beatty"], ["title", "Ergonomic Wooden Table"], ["created_at", "2015-03-16 17:06:35.738957"], ["updated_at", "2015-03-16 17:06:35.738957"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "t"], ["type_id", 248], ["description", "[\"Quidem dolorum dignissimos similique commodi velit voluptas.\", \"Consequatur provident deleniti.\", \"Est tempora magnam velit aut voluptatem totam.\", \"Molestiae earum natus vel expedita minus nobis.\", \"Quos optio vitae nostrum blanditiis sunt.\", \"Assumenda velit laborum ut maiores officiis optio rerum.\", \"Nostrum et ipsam et sit.\", \"Repellat sed consectetur.\", \"Veniam aut in ipsum quis possimus incidunt quo.\", \"Quia asperiores sint amet quasi dolor.\"]"], ["owner", "Harold Greenholt Jr."], ["title", "Sleek Plastic Hat"], ["created_at", "2015-03-16 17:06:35.743785"], ["updated_at", "2015-03-16 17:06:35.743785"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "t"], ["type_id", 754], ["description", "[\"In repellat nisi.\", \"Nobis dolor quo qui quos totam perspiciatis.\", \"Molestiae accusantium quam dolorum neque alias.\", \"Et dolorem occaecati consequatur blanditiis odit quos.\", \"Veritatis omnis est deleniti amet.\", \"Nisi facilis consequatur facere nostrum suscipit.\", \"Asperiores ea ut quam temporibus.\", \"Eligendi sint quia consequuntur distinctio eius quia ratione.\", \"Unde sunt ea.\", \"Voluptatem quo quisquam rem et nostrum voluptas.\"]"], ["owner", "Abigayle Boyle"], ["title", "Rustic Concrete Shirt"], ["created_at", "2015-03-16 17:06:35.748707"], ["updated_at", "2015-03-16 17:06:35.748707"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "t"], ["type_id", 738], ["description", "[\"Quod minus cupiditate laboriosam maiores ut beatae.\", \"Officia qui debitis qui itaque aut dicta.\", \"Laborum consequatur culpa illum aut ut.\", \"Consequatur similique maxime et maiores voluptatibus qui necessitatibus.\", \"Iusto laudantium exercitationem tempora expedita nobis doloremque.\", \"Iusto dicta odit voluptatum saepe.\", \"Sint officiis provident dicta reprehenderit temporibus.\", \"Veritatis temporibus assumenda.\", \"Quidem ea et sed dolorum porro praesentium rerum.\", \"Vel mollitia ipsam error.\"]"], ["owner", "Kellie Gibson"], ["title", "Ergonomic Granite Shirt"], ["created_at", "2015-03-16 17:06:35.753706"], ["updated_at", "2015-03-16 17:06:35.753706"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "f"], ["type_id", 490], ["description", "[\"Sequi vel est et et.\", \"Amet molestias provident quia consequuntur.\", \"Non eos quia inventore corporis odit nostrum.\", \"Qui iure nemo est doloremque culpa est eligendi.\", \"Aut doloremque minus sed neque qui quidem impedit.\", \"Fugit voluptas explicabo corrupti architecto dolor.\", \"Quia quo ex qui voluptatem et distinctio.\", \"Ipsam similique delectus consequatur fugit fugiat.\", \"Aut aut est.\", \"Sit aut illo facilis aut vel.\"]"], ["owner", "Ryley Walker MD"], ["title", "Incredible Plastic Shirt"], ["created_at", "2015-03-16 17:06:35.758325"], ["updated_at", "2015-03-16 17:06:35.758325"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "t"], ["type_id", 975], ["description", "[\"Sunt velit tempora repellendus aut iure fugiat voluptatem.\", \"Dolores qui est officia nostrum voluptas consequatur.\", \"Natus ipsum molestias laudantium omnis.\", \"Qui ea illum est eaque excepturi.\", \"Omnis nesciunt autem aut autem eum.\", \"Alias quis dolore quisquam.\", \"Maiores in dolorem recusandae fugit eum exercitationem aut.\", \"Molestiae optio reprehenderit sequi.\", \"Sunt sunt doloribus.\", \"Id omnis optio et et minima officiis.\"]"], ["owner", "Wilhelm Stoltenberg"], ["title", "Incredible Concrete Shirt"], ["created_at", "2015-03-16 17:06:35.762361"], ["updated_at", "2015-03-16 17:06:35.762361"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "pineapple"], ["organic", "f"], ["type_id", 880], ["description", "[\"Quae et rerum ipsa ratione id autem dolores.\", \"Itaque adipisci in iure dicta.\", \"Consectetur minus laudantium explicabo beatae aut distinctio tenetur.\", \"Occaecati sapiente non.\", \"Atque impedit consectetur.\", \"Non tenetur quia rem ad in illo.\", \"Ducimus suscipit laborum ipsum sint perferendis non eum.\", \"Rem iste aut est quia voluptas.\", \"Temporibus consequatur rerum id cupiditate eligendi consectetur voluptas.\", \"Voluptatem doloribus odio laborum consectetur voluptas ducimus exercitationem.\"]"], ["owner", "Tyra Grimes"], ["title", "Gorgeous Steel Chair"], ["created_at", "2015-03-16 17:06:35.766180"], ["updated_at", "2015-03-16 17:06:35.766180"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "f"], ["type_id", 570], ["description", "[\"Et quas nihil molestiae saepe quia.\", \"Tempore illum ipsa quos ut ea sed.\", \"Ut illum ut.\", \"Qui illo est aut odit eligendi quia.\", \"Et consequuntur quas animi et.\", \"Velit ut exercitationem explicabo et ea.\", \"Ullam qui ea enim.\", \"Deleniti aut et.\", \"Velit tenetur dolor maiores dolores nihil.\", \"Quasi maiores ipsa consequatur velit vitae ratione rerum.\"]"], ["owner", "Miss Colton Windler"], ["title", "Awesome Granite Pants"], ["created_at", "2015-03-16 17:06:35.771621"], ["updated_at", "2015-03-16 17:06:35.771621"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "f"], ["type_id", 890], ["description", "[\"Qui omnis dolorem odit.\", \"Sed temporibus sunt.\", \"Dolorem voluptas deserunt quod dolore.\", \"Sit temporibus nisi assumenda qui numquam tempore omnis.\", \"Excepturi blanditiis qui.\", \"Vero ea culpa quae cumque.\", \"Cupiditate quisquam porro odio.\", \"Iure sunt eaque.\", \"Dolore aut dolores.\", \"Ex nesciunt ipsa tempore.\"]"], ["owner", "Jimmie Simonis V"], ["title", "Incredible Wooden Pants"], ["created_at", "2015-03-16 17:06:35.777066"], ["updated_at", "2015-03-16 17:06:35.777066"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "f"], ["type_id", 600], ["description", "[\"Pariatur id esse assumenda.\", \"Iste omnis voluptatibus.\", \"Dolorum odit et neque ut occaecati voluptates.\", \"Eius dolor consequatur laboriosam error ducimus.\", \"Est sit labore sit.\", \"Eos sint suscipit perferendis odit placeat nihil ea.\", \"Aut veniam aut.\", \"Voluptas porro quis sit ducimus quo est soluta.\", \"Deserunt aut et maxime.\", \"Architecto ipsam vel.\"]"], ["owner", "Sonny Jacobi II"], ["title", "Small Wooden Hat"], ["created_at", "2015-03-16 17:06:35.780543"], ["updated_at", "2015-03-16 17:06:35.780543"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "t"], ["type_id", 967], ["description", "[\"Et et et et.\", \"Est aliquid facilis earum dolor temporibus molestiae consequatur.\", \"Quas et molestiae.\", \"Veniam laudantium eos quis quia.\", \"Consequatur in ut voluptas.\", \"Corrupti dolorem molestiae ratione vel laborum.\", \"Quod nisi et.\", \"Omnis reiciendis accusantium blanditiis omnis.\", \"Architecto officia itaque fugit dolor voluptatibus.\", \"Saepe molestias labore nostrum.\"]"], ["owner", "Ronaldo White"], ["title", "Ergonomic Granite Table"], ["created_at", "2015-03-16 17:06:35.785068"], ["updated_at", "2015-03-16 17:06:35.785068"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "f"], ["type_id", 314], ["description", "[\"Ab odio quam nesciunt neque laboriosam.\", \"Debitis rerum autem sed.\", \"Est voluptatibus quam cupiditate quia.\", \"Sapiente in quia.\", \"Ea alias quasi modi sed.\", \"Iure est vero est accusantium beatae consequuntur.\", \"Aperiam occaecati rerum fugiat iste dolores.\", \"Repellat ut tempora et.\", \"A veniam accusamus iste voluptatem labore molestiae.\", \"Aut facilis omnis ullam velit cupiditate.\"]"], ["owner", "Zetta Steuber DDS"], ["title", "Ergonomic Concrete Gloves"], ["created_at", "2015-03-16 17:06:35.790118"], ["updated_at", "2015-03-16 17:06:35.790118"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "t"], ["type_id", 807], ["description", "[\"Et est doloribus repudiandae est veniam expedita.\", \"Eum sapiente rerum veniam aut.\", \"Omnis ut iure iusto est exercitationem sed reiciendis.\", \"Et commodi perferendis architecto.\", \"Et alias deleniti.\", \"Aut sunt non quae minima qui facilis.\", \"Qui occaecati atque animi natus aliquam.\", \"Et dolor voluptatibus quia nesciunt.\", \"Fugiat rerum repudiandae.\", \"Vel modi fugit aut asperiores rem nihil.\"]"], ["owner", "Shanna Nolan"], ["title", "Rustic Cotton Gloves"], ["created_at", "2015-03-16 17:06:35.794370"], ["updated_at", "2015-03-16 17:06:35.794370"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "t"], ["type_id", 766], ["description", "[\"Id ad libero rerum nobis exercitationem.\", \"Ut vero praesentium.\", \"Sed iusto laborum aperiam impedit.\", \"Nisi vel qui eos officiis ratione consectetur voluptate.\", \"Id neque est itaque assumenda eius.\", \"Possimus rerum aperiam dolor quis quibusdam.\", \"Praesentium qui quibusdam ipsum libero.\", \"Beatae illo est accusantium nisi esse aut.\", \"Perspiciatis ex corrupti in.\", \"Sed ab deserunt sequi voluptatem neque sunt.\"]"], ["owner", "Tre Turcotte II"], ["title", "Small Cotton Car"], ["created_at", "2015-03-16 17:06:35.799395"], ["updated_at", "2015-03-16 17:06:35.799395"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "t"], ["type_id", 393], ["description", "[\"Dolorem et voluptatibus.\", \"Illum recusandae qui in odit quasi fugiat adipisci.\", \"Modi aut ut cum.\", \"Quas aliquam et eum rerum excepturi.\", \"Eligendi suscipit quasi inventore.\", \"Possimus necessitatibus fuga id quod.\", \"Voluptatem quia eaque.\", \"Sit ut praesentium officiis.\", \"Neque blanditiis labore delectus natus consequatur.\", \"Dicta officia velit quidem molestiae quasi ut commodi.\"]"], ["owner", "Dr. Emmanuelle Hilll"], ["title", "Rustic Cotton Hat"], ["created_at", "2015-03-16 17:06:35.803494"], ["updated_at", "2015-03-16 17:06:35.803494"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "f"], ["type_id", 221], ["description", "[\"Sit quaerat aut inventore maiores sapiente quod est.\", \"Incidunt et doloribus ab.\", \"Minus sint quibusdam eos dicta quia unde.\", \"Rerum consequatur assumenda velit dicta repellat tenetur.\", \"Laudantium odit eos.\", \"Fugiat sequi laudantium cum porro vitae minus ipsam.\", \"Odit ipsum totam et voluptatem adipisci reprehenderit aut.\", \"Debitis vitae facere incidunt est quia dolor atque.\", \"Id dolorem perspiciatis necessitatibus dolore consequuntur pariatur.\", \"In voluptates itaque labore vel maiores quae.\"]"], ["owner", "Nadia Witting"], ["title", "Incredible Steel Chair"], ["created_at", "2015-03-16 17:06:35.808087"], ["updated_at", "2015-03-16 17:06:35.808087"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "t"], ["type_id", 865], ["description", "[\"Voluptate vitae pariatur ratione numquam ut temporibus ullam.\", \"Cum ut at.\", \"Maiores ea ullam.\", \"Necessitatibus vel fugiat.\", \"Quaerat aut voluptatibus sint.\", \"Eaque exercitationem libero quis enim odit.\", \"Vero sit ex optio dolores.\", \"Et ab ea ut.\", \"Est fuga ipsum explicabo sequi iusto eveniet quasi.\", \"Incidunt velit laboriosam corrupti.\"]"], ["owner", "Mrs. Stuart Murphy"], ["title", "Small Granite Shoes"], ["created_at", "2015-03-16 17:06:47.567084"], ["updated_at", "2015-03-16 17:06:47.567084"]]
+  [1m[35m (8.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "f"], ["type_id", 520], ["description", "[\"Ut repudiandae voluptatem enim quam sit libero est.\", \"Odio et saepe.\", \"In sunt dolore.\", \"Culpa quibusdam rerum ratione illo aspernatur velit.\", \"Aut ut aut tempora.\", \"Dolor quasi iure temporibus sunt quo esse ut.\", \"Non dolorum molestiae quisquam repellat magni.\", \"Rerum ut ut aut harum dolor eum aut.\", \"Neque libero velit voluptas non praesentium impedit.\", \"Facilis cupiditate quibusdam.\"]"], ["owner", "Andy Rempel"], ["title", "Small Cotton Shirt"], ["created_at", "2015-03-16 17:06:47.582248"], ["updated_at", "2015-03-16 17:06:47.582248"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "pineapple"], ["organic", "t"], ["type_id", 901], ["description", "[\"Amet beatae tempora impedit commodi id distinctio.\", \"Veniam tempora harum sed praesentium.\", \"Veniam dolor est et.\", \"Dolorem dignissimos quam et.\", \"Fugit vel repellat.\", \"Sequi nulla quasi impedit aliquid temporibus.\", \"Non iure ut quibusdam dolorem velit.\", \"Omnis maxime omnis et.\", \"Nesciunt nihil quidem earum.\", \"Repudiandae et consequatur optio ipsum odit.\"]"], ["owner", "Lura Hagenes"], ["title", "Intelligent Concrete Chair"], ["created_at", "2015-03-16 17:06:47.590278"], ["updated_at", "2015-03-16 17:06:47.590278"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "t"], ["type_id", 166], ["description", "[\"Facere et ducimus.\", \"Rerum distinctio in non non saepe.\", \"Labore autem aut excepturi voluptas.\", \"Sint qui et illo debitis non.\", \"Officia ut in.\", \"Et vero necessitatibus quod distinctio rerum laudantium fugit.\", \"Iusto consequatur rerum perferendis soluta cumque.\", \"Facere eum optio at.\", \"Voluptatem libero quo sed aut aut quidem.\", \"Enim dolorem dolorum temporibus et eveniet aut.\"]"], ["owner", "Sim Macejkovic III"], ["title", "Rustic Concrete Hat"], ["created_at", "2015-03-16 17:06:47.595645"], ["updated_at", "2015-03-16 17:06:47.595645"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "t"], ["type_id", 660], ["description", "[\"Dolorem consequuntur perspiciatis dolor ea aspernatur.\", \"Consequatur dolorum qui dolores quae.\", \"Veniam vel non quia quo.\", \"Aut laboriosam dolorem quia facere vero.\", \"Similique laborum ex.\", \"Voluptatem dolorum ut sunt quia praesentium ex aut.\", \"Dolores autem aspernatur vel nobis ea inventore.\", \"Officiis ea explicabo qui enim blanditiis quo totam.\", \"Tempore quia deleniti.\", \"Alias qui et est necessitatibus sed vel et.\"]"], ["owner", "Zelma Daniel"], ["title", "Fantastic Steel Chair"], ["created_at", "2015-03-16 17:06:47.599799"], ["updated_at", "2015-03-16 17:06:47.599799"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "t"], ["type_id", 384], ["description", "[\"Earum facilis possimus est doloribus culpa ipsam omnis.\", \"Perspiciatis eaque aut.\", \"Quod amet in ipsum nobis libero.\", \"Molestias eum repudiandae est hic et voluptatem.\", \"Adipisci itaque aliquam qui voluptates.\", \"Ab culpa ex dignissimos accusamus dolores inventore quia.\", \"Molestiae porro laudantium.\", \"Animi minima deleniti neque.\", \"Error est velit consequatur molestiae.\", \"Maxime quaerat ipsum qui magnam vitae est.\"]"], ["owner", "Ana Ward"], ["title", "Intelligent Granite Gloves"], ["created_at", "2015-03-16 17:06:47.603591"], ["updated_at", "2015-03-16 17:06:47.603591"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "t"], ["type_id", 478], ["description", "[\"Architecto quod ullam voluptate sed.\", \"Animi voluptatibus consequatur reiciendis.\", \"Est voluptas ab.\", \"Neque occaecati sint numquam quis.\", \"Reprehenderit quia eum porro.\", \"Cumque veniam possimus voluptate dignissimos animi.\", \"Delectus in dolorem sit.\", \"Qui eius asperiores a facilis sunt.\", \"Nobis labore qui porro ut quos quasi.\", \"Autem excepturi iure ut.\"]"], ["owner", "Solon Weissnat"], ["title", "Rustic Granite Shoes"], ["created_at", "2015-03-16 17:06:47.607447"], ["updated_at", "2015-03-16 17:06:47.607447"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "f"], ["type_id", 547], ["description", "[\"Doloribus aut ducimus voluptatem accusantium voluptatibus eaque.\", \"Saepe explicabo nihil sunt nemo consequatur.\", \"Nisi dignissimos nihil voluptatum quidem ex.\", \"Unde hic voluptatem officia quia molestias dolorem.\", \"Veniam quae atque distinctio qui enim sint.\", \"Ab perferendis nemo earum voluptatem dolores est facilis.\", \"Laudantium vitae et adipisci temporibus corporis et.\", \"Ipsum mollitia quo non.\", \"Nostrum facilis sed omnis magnam velit accusamus et.\", \"Voluptatem consequatur blanditiis corporis.\"]"], ["owner", "Mark Jones"], ["title", "Fantastic Concrete Table"], ["created_at", "2015-03-16 17:06:47.611839"], ["updated_at", "2015-03-16 17:06:47.611839"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "apple"], ["organic", "t"], ["type_id", 898], ["description", "[\"Eos ut enim qui vitae est numquam unde.\", \"Facilis dolorem velit eum non voluptatibus.\", \"Magnam qui neque culpa a quibusdam ut.\", \"Suscipit in ut magni.\", \"Dolor amet qui ut dolorem distinctio praesentium.\", \"Quidem quis tenetur aut perspiciatis.\", \"Doloremque consectetur voluptates et praesentium et libero.\", \"Unde doloribus laboriosam fuga rem ut quis.\", \"Nesciunt facere et voluptas error quam quo tempore.\", \"Voluptatem ea omnis vitae mollitia.\"]"], ["owner", "Ulices Lehner"], ["title", "Intelligent Rubber Table"], ["created_at", "2015-03-16 17:06:47.616369"], ["updated_at", "2015-03-16 17:06:47.616369"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "pineapple"], ["organic", "t"], ["type_id", 441], ["description", "[\"Labore eum tempora.\", \"Vero tempora sint maxime quos voluptate.\", \"Quasi rerum maxime.\", \"Tempore fugit repellat debitis blanditiis deserunt.\", \"Magnam ex eos atque qui omnis.\", \"Quae consectetur iste nostrum.\", \"Recusandae voluptatum modi maiores adipisci est consequatur qui.\", \"Pariatur voluptas quae vero in.\", \"Modi aut facilis voluptates non.\", \"Sint soluta ut architecto eligendi.\"]"], ["owner", "Tina Volkman"], ["title", "Incredible Cotton Hat"], ["created_at", "2015-03-16 17:06:47.620868"], ["updated_at", "2015-03-16 17:06:47.620868"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "apple"], ["organic", "t"], ["type_id", 907], ["description", "[\"Et sapiente error omnis minima numquam.\", \"Veniam sit minima culpa officiis.\", \"Harum et impedit.\", \"Nemo est fugiat error et minima eos id.\", \"Facere est numquam dolore.\", \"Nisi ad ipsa quam doloribus omnis.\", \"Odit odio rerum et magnam.\", \"Dignissimos dolores illo quis molestiae et velit nesciunt.\", \"Debitis numquam omnis deleniti optio quia.\", \"Iusto atque voluptatem.\"]"], ["owner", "Madge Halvorson"], ["title", "Fantastic Cotton Chair"], ["created_at", "2015-03-16 17:06:47.626062"], ["updated_at", "2015-03-16 17:06:47.626062"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "t"], ["type_id", 311], ["description", "[\"Inventore asperiores sint sunt placeat pariatur tempora.\", \"Eum est quas ipsa eos sit autem eos.\", \"Esse incidunt nihil.\", \"Velit sunt mollitia molestias eligendi.\", \"Est quis vitae nostrum ullam ad expedita.\", \"Voluptas qui aut.\", \"Eaque voluptatum ad voluptates repellat blanditiis.\", \"Facilis in quisquam dolorem distinctio sed cum neque.\", \"Totam eum mollitia quis sequi repellendus.\", \"Sit culpa alias beatae ex quas consequatur.\"]"], ["owner", "Isabel Sauer"], ["title", "Ergonomic Cotton Pants"], ["created_at", "2015-03-16 17:06:47.630281"], ["updated_at", "2015-03-16 17:06:47.630281"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "f"], ["type_id", 835], ["description", "[\"Occaecati dignissimos autem ullam.\", \"Ut aut accusantium debitis nulla voluptas.\", \"Praesentium dolorem et quia voluptatibus aliquam.\", \"Exercitationem eos nam veniam excepturi reiciendis.\", \"Impedit non eos at.\", \"Sint itaque in ut molestiae unde.\", \"Aliquam qui debitis vitae placeat sapiente.\", \"Maxime omnis adipisci.\", \"Sunt iure sed sit reprehenderit sed.\", \"Quia vero error.\"]"], ["owner", "Michelle Weimann II"], ["title", "Practical Steel Shoes"], ["created_at", "2015-03-16 17:06:47.634682"], ["updated_at", "2015-03-16 17:06:47.634682"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "t"], ["type_id", 761], ["description", "[\"Est quas magnam unde veniam provident deleniti.\", \"Consectetur sunt rerum voluptates sed dolor.\", \"Aliquid qui est et quia magnam.\", \"Repellat beatae optio sit.\", \"Quae aut quo quia eius.\", \"Soluta nisi aliquid esse ea.\", \"Quo dolor nihil neque sequi ipsum id natus.\", \"Omnis aut ut voluptatum consequatur recusandae ipsum molestiae.\", \"Temporibus nulla aut veritatis possimus hic.\", \"Blanditiis ratione voluptates dolorem expedita.\"]"], ["owner", "Syble Runolfsdottir DDS"], ["title", "Gorgeous Cotton Shirt"], ["created_at", "2015-03-16 17:06:47.639037"], ["updated_at", "2015-03-16 17:06:47.639037"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "t"], ["type_id", 977], ["description", "[\"Et iusto consequuntur maxime quia eaque.\", \"Quasi harum excepturi.\", \"Et ratione perferendis suscipit velit aut qui.\", \"Accusantium sapiente doloremque eum.\", \"Accusantium magni id et velit.\", \"Alias ullam non tenetur consequuntur et.\", \"Quaerat ea repellat.\", \"Amet aut ut et consequuntur quia quis aliquid.\", \"Necessitatibus nam minus ipsam sit.\", \"Officia eum voluptatibus et beatae quos totam fugiat.\"]"], ["owner", "Penelope Miller"], ["title", "Awesome Wooden Car"], ["created_at", "2015-03-16 17:06:47.642945"], ["updated_at", "2015-03-16 17:06:47.642945"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "pineapple"], ["organic", "f"], ["type_id", 999], ["description", "[\"Ut non beatae nisi architecto ut.\", \"Sed perferendis autem maiores et magnam voluptas.\", \"Fuga dolorum eum quia consequatur sint.\", \"Ratione fugit in modi et voluptatem ea.\", \"Similique rem voluptatem qui sint distinctio.\", \"Earum expedita placeat.\", \"Laborum omnis minima asperiores dolorem assumenda voluptates.\", \"Debitis et non perferendis vitae.\", \"Vel soluta in.\", \"Non voluptas sapiente laboriosam pariatur maiores placeat.\"]"], ["owner", "Mrs. Geraldine Douglas"], ["title", "Incredible Cotton Chair"], ["created_at", "2015-03-16 17:06:47.647728"], ["updated_at", "2015-03-16 17:06:47.647728"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "pineapple"], ["organic", "f"], ["type_id", 747], ["description", "[\"Rerum tempore necessitatibus quis.\", \"Atque aut dolorem ducimus optio iure.\", \"Placeat perspiciatis eius quo facere quaerat aut nemo.\", \"Autem nobis et ducimus numquam natus voluptate.\", \"Magni animi ea ipsa.\", \"Magni doloremque ipsum quae ad aut.\", \"Ut fugiat voluptatem beatae eos.\", \"Eaque accusamus nesciunt qui minima laboriosam ab.\", \"Harum sint nihil facere aspernatur sed.\", \"Ullam id molestiae sapiente perferendis.\"]"], ["owner", "Royal Wunsch"], ["title", "Ergonomic Concrete Computer"], ["created_at", "2015-03-16 17:06:47.652056"], ["updated_at", "2015-03-16 17:06:47.652056"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "f"], ["type_id", 95], ["description", "[\"Aut ut voluptas est odio sunt.\", \"Excepturi in qui a voluptatibus molestias commodi maiores.\", \"Qui sed reprehenderit expedita magni aspernatur pariatur.\", \"Voluptatem laudantium doloremque iste.\", \"Cumque qui necessitatibus quia fugiat.\", \"Recusandae magni facere et nulla aut quas.\", \"Ut quae debitis.\", \"Reprehenderit autem et aut.\", \"Dolorem commodi ratione deleniti debitis maxime.\", \"Tenetur vitae aut aperiam dignissimos consequatur.\"]"], ["owner", "Pietro Ward"], ["title", "Incredible Rubber Car"], ["created_at", "2015-03-16 17:06:47.656532"], ["updated_at", "2015-03-16 17:06:47.656532"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "f"], ["type_id", 355], ["description", "[\"Sit aut optio dolores delectus tempore in.\", \"Nihil ipsa enim id et.\", \"Asperiores quia occaecati quisquam qui et.\", \"Vel illo consequuntur.\", \"Nostrum illum error et et.\", \"Aspernatur vero harum aut facilis dolorum ut.\", \"Et asperiores unde et dolorum nesciunt.\", \"Facilis ex sit vel.\", \"Quibusdam nulla minus quis beatae veniam ad itaque.\", \"Voluptatum sunt quas rerum quo est.\"]"], ["owner", "Mark Kertzmann I"], ["title", "Gorgeous Wooden Chair"], ["created_at", "2015-03-16 17:06:47.662461"], ["updated_at", "2015-03-16 17:06:47.662461"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "t"], ["type_id", 477], ["description", "[\"Dolorem dolores repellendus optio.\", \"Tenetur in quo voluptas.\", \"Officia molestiae et consequuntur.\", \"Et voluptates iusto est veniam quia.\", \"Ipsa accusantium perferendis tempora rerum et porro et.\", \"Reiciendis iure minus consequatur beatae non error officiis.\", \"Perspiciatis et suscipit magnam consequatur ab consequatur reprehenderit.\", \"Quas similique qui occaecati in natus aut veritatis.\", \"Sapiente consequatur molestias assumenda quaerat dolorem eum ea.\", \"Ut suscipit quo odio et.\"]"], ["owner", "Henderson Schmitt"], ["title", "Rustic Rubber Shirt"], ["created_at", "2015-03-16 17:06:47.667925"], ["updated_at", "2015-03-16 17:06:47.667925"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[36mFruit Load (1.4ms)[0m  [1mSELECT "fruits".* FROM "fruits"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "f"], ["type_id", 881], ["description", "[\"Impedit et velit voluptas.\", \"Est a enim omnis ea autem consequatur.\", \"Fugit aut necessitatibus quod dignissimos autem est totam.\", \"Culpa natus modi maiores blanditiis exercitationem consequatur.\", \"Minima aut fuga itaque qui.\", \"Qui nulla cupiditate dolorum unde rerum fugit.\", \"Recusandae aut veniam deserunt dolorem dolorum.\", \"Harum atque deserunt.\", \"Nihil officiis omnis.\", \"Quis nam rem qui voluptatibus qui.\"]"], ["owner", "Beaulah Hahn Jr."], ["title", "Ergonomic Wooden Pants"], ["created_at", "2015-03-16 17:13:10.827336"], ["updated_at", "2015-03-16 17:13:10.827336"]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "t"], ["type_id", 733], ["description", "[\"Sint rerum praesentium aliquid.\", \"Similique rerum et perferendis consequatur.\", \"Vero pariatur saepe aut tenetur repudiandae qui voluptates.\", \"Et nesciunt et non nemo.\", \"Adipisci vel et.\", \"Aliquam eius inventore.\", \"Quis numquam sed et ratione fugiat ut accusantium.\", \"Nobis nesciunt eum.\", \"Voluptatem sed vel.\", \"Perspiciatis cum facere.\"]"], ["owner", "Lelia Swaniawski"], ["title", "Sleek Rubber Pants"], ["created_at", "2015-03-16 17:13:10.844204"], ["updated_at", "2015-03-16 17:13:10.844204"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "t"], ["type_id", 645], ["description", "[\"Quo voluptates repellendus quo fuga porro sint illum.\", \"Consectetur beatae ullam nemo omnis non autem non.\", \"Quia velit vero corrupti quo.\", \"Facilis aut quo et nemo.\", \"Illo nostrum sed quas eos debitis.\", \"Animi id ut nobis rerum perspiciatis.\", \"Nihil aliquid blanditiis quia excepturi vitae.\", \"Odit ratione beatae.\", \"Doloribus aut ea saepe asperiores exercitationem explicabo culpa.\", \"Dolores voluptatem ut nemo aut quia et inventore.\"]"], ["owner", "Mario Hintz"], ["title", "Ergonomic Plastic Gloves"], ["created_at", "2015-03-16 17:13:10.851286"], ["updated_at", "2015-03-16 17:13:10.851286"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "t"], ["type_id", 305], ["description", "[\"Fugit facilis inventore quam et distinctio.\", \"Fugiat alias esse.\", \"Odio dolor mollitia recusandae ut aspernatur reprehenderit reiciendis.\", \"Eum sed quis vero.\", \"Aperiam quae quibusdam veritatis at.\", \"Voluptatibus commodi illo sit fugiat aut corporis.\", \"Dolorem quis quaerat harum accusamus aspernatur nesciunt.\", \"Sit voluptatem quos corporis.\", \"Mollitia molestiae ipsam maxime aliquam vel sit quam.\", \"Dolor explicabo nulla.\"]"], ["owner", "Miles Langosh V"], ["title", "Fantastic Cotton Shirt"], ["created_at", "2015-03-16 17:13:10.856170"], ["updated_at", "2015-03-16 17:13:10.856170"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "apple"], ["organic", "t"], ["type_id", 576], ["description", "[\"Sed quisquam voluptate dolorem quidem quia ipsam.\", \"Nostrum delectus rerum sint distinctio tempore cum.\", \"Occaecati totam vero cum non voluptate culpa.\", \"Qui harum recusandae.\", \"Id et libero temporibus autem.\", \"Neque et voluptas quia culpa architecto inventore doloremque.\", \"Doloribus harum est autem optio nisi est id.\", \"Dolor voluptatem libero tempore aliquid mollitia tenetur itaque.\", \"Est numquam corrupti quia delectus.\", \"Quos aliquam sequi reprehenderit.\"]"], ["owner", "Blaise Hermiston"], ["title", "Incredible Steel Car"], ["created_at", "2015-03-16 17:13:10.860475"], ["updated_at", "2015-03-16 17:13:10.860475"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "apple"], ["organic", "t"], ["type_id", 714], ["description", "[\"Sunt temporibus quibusdam tenetur voluptas tempora esse itaque.\", \"Iste beatae aut aspernatur sit enim reiciendis sunt.\", \"Deleniti praesentium voluptas aut mollitia et error.\", \"Perspiciatis sint et impedit.\", \"Sunt autem eius.\", \"Et itaque asperiores rerum harum aut.\", \"Et quo quibusdam ut qui ut.\", \"In ad iste itaque.\", \"Quisquam laborum non tempore sed neque officiis doloremque.\", \"Vitae ducimus voluptatum explicabo fugit omnis.\"]"], ["owner", "Dejuan Daniel"], ["title", "Gorgeous Wooden Gloves"], ["created_at", "2015-03-16 17:13:10.864663"], ["updated_at", "2015-03-16 17:13:10.864663"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "apple"], ["organic", "f"], ["type_id", 818], ["description", "[\"Eveniet ea occaecati libero molestias.\", \"Sint rem pariatur velit.\", \"Laudantium quo est dolor incidunt sed sint.\", \"Dicta voluptatibus aut distinctio autem voluptatem suscipit qui.\", \"Dolorem dignissimos fugit.\", \"Ut possimus repudiandae perspiciatis aut quis.\", \"Odit sed libero repellat vitae ratione sit molestias.\", \"Odio occaecati eum corporis quas delectus consequatur laboriosam.\", \"Sed qui assumenda laboriosam nihil id soluta rerum.\", \"Animi laboriosam et dicta sint.\"]"], ["owner", "Kailee Wisozk"], ["title", "Intelligent Cotton Computer"], ["created_at", "2015-03-16 17:13:10.869407"], ["updated_at", "2015-03-16 17:13:10.869407"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "pineapple"], ["organic", "f"], ["type_id", 838], ["description", "[\"Officiis perspiciatis quaerat qui exercitationem pariatur.\", \"Deserunt placeat iure perferendis.\", \"Provident sapiente occaecati magnam nesciunt.\", \"Ut maxime et quia aperiam expedita sint libero.\", \"Doloribus quis sunt ducimus praesentium iusto earum.\", \"Quibusdam commodi molestiae.\", \"Sit illo architecto officia beatae assumenda voluptatibus.\", \"Aliquam non quis vel illo.\", \"Temporibus molestiae voluptatem.\", \"Totam fugit ipsam odio.\"]"], ["owner", "Dr. Arno Flatley"], ["title", "Ergonomic Cotton Shirt"], ["created_at", "2015-03-16 17:13:10.874408"], ["updated_at", "2015-03-16 17:13:10.874408"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "pineapple"], ["organic", "t"], ["type_id", 449], ["description", "[\"Mollitia corrupti nisi qui sapiente labore veritatis.\", \"Et ea esse est minima nostrum.\", \"Aliquid voluptatem tempora eaque sit blanditiis.\", \"Hic ea neque non at perspiciatis.\", \"Tenetur sunt aut vel neque eos quibusdam consequatur.\", \"Est et dolor est quis ipsa aspernatur minima.\", \"Et ut ut illo.\", \"Eos cumque ab optio voluptatem.\", \"Vel autem exercitationem.\", \"Perspiciatis enim aut voluptatem dolorem nobis quisquam.\"]"], ["owner", "Jaquan Grady"], ["title", "Gorgeous Rubber Car"], ["created_at", "2015-03-16 17:13:10.879949"], ["updated_at", "2015-03-16 17:13:10.879949"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "f"], ["type_id", 128], ["description", "[\"Beatae iste qui.\", \"Et dolor at aut velit magnam aliquid.\", \"Provident commodi qui.\", \"Repudiandae reiciendis quis.\", \"Nobis omnis quia minus necessitatibus soluta autem vel.\", \"Quis exercitationem quos delectus assumenda.\", \"Voluptatem velit deserunt quaerat aliquid porro.\", \"In iste repudiandae ratione ducimus pariatur.\", \"Molestiae dicta in.\", \"Rerum dolorum quam.\"]"], ["owner", "Morgan Hoeger"], ["title", "Incredible Plastic Chair"], ["created_at", "2015-03-16 17:13:10.886521"], ["updated_at", "2015-03-16 17:13:10.886521"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "banana"], ["organic", "t"], ["type_id", 251], ["description", "[\"A omnis qui.\", \"Enim nesciunt ipsum.\", \"Ut esse nostrum itaque ex in.\", \"Qui inventore blanditiis facilis voluptates.\", \"Aut et voluptate.\", \"Quaerat qui voluptatum beatae totam architecto.\", \"Delectus cum perspiciatis aut recusandae architecto.\", \"Fugiat occaecati quaerat accusantium mollitia distinctio quibusdam.\", \"Nostrum quibusdam culpa.\", \"Iusto quibusdam repellendus repudiandae.\"]"], ["owner", "Coby Prohaska"], ["title", "Ergonomic Wooden Car"], ["created_at", "2015-03-16 17:13:10.890796"], ["updated_at", "2015-03-16 17:13:10.890796"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "f"], ["type_id", 951], ["description", "[\"Quo blanditiis ad repudiandae.\", \"Est adipisci aperiam eos.\", \"Sit nostrum occaecati qui in quaerat architecto.\", \"Totam sunt ad ducimus autem aut rem.\", \"Enim quo aut quae repellendus culpa ea.\", \"Est doloremque qui sint similique porro iusto quas.\", \"Tenetur laboriosam ut eos.\", \"Enim corrupti et ut.\", \"Placeat nostrum dolor optio eum harum.\", \"Molestiae sapiente tempore beatae aut.\"]"], ["owner", "Kali Parker"], ["title", "Small Concrete Shoes"], ["created_at", "2015-03-16 17:13:10.895147"], ["updated_at", "2015-03-16 17:13:10.895147"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "f"], ["type_id", 118], ["description", "[\"Sunt voluptas qui excepturi doloremque sit.\", \"Amet dicta vero aut vitae est.\", \"Minima quo ut odio ex voluptas totam voluptas.\", \"Veniam voluptatem sint et alias quaerat voluptatem.\", \"Qui minima sequi quae quo non.\", \"Veritatis porro asperiores voluptatem sint dicta officia.\", \"Esse veniam impedit rerum ipsum repellat.\", \"Qui quisquam et aliquid tenetur.\", \"Nihil molestiae deserunt rerum.\", \"Illum adipisci veritatis sit officia eligendi est error.\"]"], ["owner", "Mr. Rafaela Purdy"], ["title", "Small Wooden Hat"], ["created_at", "2015-03-16 17:13:10.899612"], ["updated_at", "2015-03-16 17:13:10.899612"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "t"], ["type_id", 61], ["description", "[\"Commodi praesentium quam inventore fugiat corporis.\", \"Consequuntur sint officiis magni hic vel quia.\", \"Dolorem quos omnis quo rerum animi et.\", \"Voluptas dolorem repudiandae nostrum nisi ut nobis.\", \"Repudiandae ex nulla eligendi mollitia tenetur.\", \"Libero sequi et nobis.\", \"Ea voluptas ut ipsum.\", \"Iure est ab reprehenderit porro quidem.\", \"Praesentium autem maiores quasi neque officia et quibusdam.\", \"Voluptatem quia excepturi officia repellat quod.\"]"], ["owner", "Ashtyn Oberbrunner"], ["title", "Small Cotton Shoes"], ["created_at", "2015-03-16 17:13:10.903429"], ["updated_at", "2015-03-16 17:13:10.903429"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "pineapple"], ["organic", "f"], ["type_id", 868], ["description", "[\"Est ut sit sunt numquam atque omnis.\", \"Atque expedita quas quia.\", \"Eos voluptatem aut.\", \"Voluptatum veritatis ad rerum expedita cupiditate quia quasi.\", \"Ex numquam quis magnam.\", \"Et id repudiandae eos id nihil consequatur deserunt.\", \"Dolor veritatis voluptatum ea dolores commodi veniam.\", \"Molestiae est ab laudantium vitae neque reiciendis tempore.\", \"Quo autem laudantium id sequi fugiat error.\", \"Pariatur ipsa et excepturi et neque occaecati optio.\"]"], ["owner", "Ms. Giovanna Bogisich"], ["title", "Rustic Concrete Shirt"], ["created_at", "2015-03-16 17:13:10.907995"], ["updated_at", "2015-03-16 17:13:10.907995"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "banana"], ["organic", "f"], ["type_id", 360], ["description", "[\"Natus expedita reprehenderit.\", \"Quisquam voluptas qui adipisci et velit.\", \"Temporibus qui quod libero molestias.\", \"Suscipit aliquam repudiandae omnis cum earum sed quas.\", \"Fugit fugiat vitae.\", \"Enim sunt est distinctio quo.\", \"Qui natus earum nam deleniti dolores.\", \"A illo libero qui blanditiis quas itaque.\", \"Iusto ut deleniti non nobis recusandae et.\", \"Ipsa sequi iure quia rerum.\"]"], ["owner", "Cecil Crist"], ["title", "Intelligent Plastic Hat"], ["created_at", "2015-03-16 17:13:10.911834"], ["updated_at", "2015-03-16 17:13:10.911834"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "f"], ["type_id", 588], ["description", "[\"Est harum commodi eius.\", \"Consequuntur ut placeat eveniet sed harum veritatis dignissimos.\", \"Ea aspernatur laboriosam temporibus.\", \"Quo voluptatum accusantium omnis omnis amet in veritatis.\", \"Repudiandae qui hic nisi eveniet.\", \"Consequuntur et minus quod corporis.\", \"Aut quos qui molestias.\", \"Nam et molestiae.\", \"Labore eaque officiis.\", \"Sunt nostrum facere quibusdam.\"]"], ["owner", "Renee Bechtelar"], ["title", "Intelligent Granite Table"], ["created_at", "2015-03-16 17:13:10.916698"], ["updated_at", "2015-03-16 17:13:10.916698"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "pineapple"], ["organic", "f"], ["type_id", 792], ["description", "[\"Molestiae adipisci et mollitia aspernatur rerum non.\", \"Quaerat voluptatem nulla incidunt.\", \"Dolores quia aperiam deleniti.\", \"Et velit quasi.\", \"Ea nemo qui consequatur vitae.\", \"Et quas vel ipsam ex.\", \"Alias consequuntur quidem aspernatur.\", \"Reiciendis maiores quia qui.\", \"Recusandae vitae quos.\", \"Cumque ut in.\"]"], ["owner", "Ivah Rau"], ["title", "Practical Steel Shoes"], ["created_at", "2015-03-16 17:13:10.920876"], ["updated_at", "2015-03-16 17:13:10.920876"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["species", "orange"], ["organic", "f"], ["type_id", 206], ["description", "[\"Sequi amet officia molestiae culpa et architecto asperiores.\", \"Velit aut quam.\", \"Molestias et quae rem est aliquid itaque.\", \"Qui a quia quas.\", \"Explicabo odit cum cumque.\", \"Delectus dolorum praesentium doloribus incidunt.\", \"Et est blanditiis veniam atque.\", \"At saepe dolores non autem.\", \"Totam quae nesciunt voluptatem ea.\", \"Dolor dolore non aspernatur sed et optio magni.\"]"], ["owner", "Lelia Ondricka"], ["title", "Rustic Plastic Shirt"], ["created_at", "2015-03-16 17:13:10.925337"], ["updated_at", "2015-03-16 17:13:10.925337"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "fruits" ("species", "organic", "type_id", "description", "owner", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["species", "orange"], ["organic", "t"], ["type_id", 103], ["description", "[\"Voluptatum voluptas facilis.\", \"Ut fugiat cumque quisquam aliquam amet excepturi explicabo.\", \"Culpa nihil necessitatibus ad qui doloribus consequuntur.\", \"Accusantium voluptatem praesentium.\", \"Voluptas modi optio animi minima est ut deserunt.\", \"Autem enim distinctio culpa deleniti sed.\", \"Neque quia maxime maiores.\", \"Odio quia quia sint nisi et molestias.\", \"Veritatis ipsam eum culpa.\", \"Sit ad vitae et nisi voluptatem impedit et.\"]"], ["owner", "Lukas Shanahan"], ["title", "Fantastic Concrete Computer"], ["created_at", "2015-03-16 17:13:10.929448"], ["updated_at", "2015-03-16 17:13:10.929448"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-16 13:38:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 41ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-16 13:38:29 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-03-16 13:38:31 -0400
+
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (34.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (67.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-16 13:38:31 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/" for 127.0.0.1 at 2015-03-16 13:38:36 -0400
+Processing by FruitsController#index as HTML
+  [1m[35mFruit Load (1.8ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 218ms (Views: 209.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/fruits-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-16 13:38:37 -0400
+
+
+Started GET "/assets/application-535c114a85df9fac190f15a7ad2ede69.css?body=1" for 127.0.0.1 at 2015-03-16 13:38:37 -0400
+
+
+Started GET "/assets/scaffolds-c9a3b9246c8109aa568bd65e0d99146b.css?body=1" for 127.0.0.1 at 2015-03-16 13:38:37 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-16 13:38:37 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-16 13:38:37 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-16 13:38:37 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-16 13:38:37 -0400
+
+
+Started GET "/assets/fruits-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-16 13:38:37 -0400
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:38:37 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fruits-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-16 13:38:38 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-16 13:38:38 -0400
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:41:14 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 116ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search.json?utf8=%E2%9C%93&species=pineapple&commit=Search" for 127.0.0.1 at 2015-03-16 13:41:25 -0400
+Processing by FruitsController#search as JSON
+  Parameters: {"utf8"=>"✓", "species"=>"pineapple", "commit"=>"Search"}
+  [1m[36mFruit Load (0.9ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?[0m  [["species", "pineapple"]]
+  Rendered fruits/search.json.jbuilder (21.2ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:41:27 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 162ms (Views: 160.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:42:52 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search.json?utf8=%E2%9C%93&species=apple&commit=Search" for 127.0.0.1 at 2015-03-16 13:42:56 -0400
+Processing by FruitsController#search as JSON
+  Parameters: {"utf8"=>"✓", "species"=>"apple", "commit"=>"Search"}
+  [1m[35mFruit Load (0.6ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?  [["species", "apple"]]
+  Rendered fruits/search.json.jbuilder (3.8ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:42:58 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 159ms (Views: 158.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:43:01 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 91ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:43:05 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search.json?utf8=%E2%9C%93&species=banana&commit=Search" for 127.0.0.1 at 2015-03-16 13:43:11 -0400
+Processing by FruitsController#search as JSON
+  Parameters: {"utf8"=>"✓", "species"=>"banana", "commit"=>"Search"}
+  [1m[36mFruit Load (0.2ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?[0m  [["species", "banana"]]
+  Rendered fruits/search.json.jbuilder (4.3ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:43:14 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 111ms (Views: 109.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/" for 127.0.0.1 at 2015-03-16 13:47:17 -0400
+Processing by FruitsController#index as HTML
+  [1m[35mFruit Load (0.9ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 118ms (Views: 116.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/fruits/search.json?utf8=%E2%9C%93&species=banana&commit=Search" for 127.0.0.1 at 2015-03-16 13:48:04 -0400
+Processing by FruitsController#search as JSON
+  Parameters: {"utf8"=>"✓", "species"=>"banana", "commit"=>"Search"}
+Redirected to http://0.0.0.0:3000/fruits
+Completed 302 Found in 9ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:48:05 -0400
+Processing by FruitsController#index as HTML
+  [1m[36mFruit Load (1.7ms)[0m  [1mSELECT "fruits".* FROM "fruits"[0m
+  Rendered fruits/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 70ms (Views: 66.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:48:45 -0400
+Processing by FruitsController#search as HTML
+Redirected to http://0.0.0.0:3000/fruits
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:48:45 -0400
+Processing by FruitsController#index as HTML
+  [1m[35mFruit Load (0.6ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.html.erb within layouts/application (68.4ms)
+Completed 200 OK in 173ms (Views: 171.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:48:48 -0400
+Processing by FruitsController#index as HTML
+  [1m[36mFruit Load (0.4ms)[0m  [1mSELECT "fruits".* FROM "fruits"[0m
+  Rendered fruits/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 193ms (Views: 191.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:48:50 -0400
+Processing by FruitsController#index as HTML
+  [1m[35mFruit Load (0.5ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:48:54 -0400
+Processing by FruitsController#search as HTML
+Redirected to http://0.0.0.0:3000/fruits
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:48:54 -0400
+Processing by FruitsController#index as HTML
+  [1m[36mFruit Load (0.4ms)[0m  [1mSELECT "fruits".* FROM "fruits"[0m
+  Rendered fruits/index.html.erb within layouts/application (84.7ms)
+Completed 200 OK in 128ms (Views: 127.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:48:58 -0400
+Processing by FruitsController#search as HTML
+Redirected to http://0.0.0.0:3000/fruits
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:48:58 -0400
+Processing by FruitsController#index as HTML
+  [1m[35mFruit Load (0.4ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 161ms (Views: 160.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:49:34 -0400
+Processing by FruitsController#search as HTML
+Redirected to http://0.0.0.0:3000/fruits
+Completed 406 Not Acceptable in 4ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/fruits_controller.rb:8:in `search'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (21.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (44.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:50:14 -0400
+Processing by FruitsController#search as HTML
+Redirected to http://0.0.0.0:3000/fruits
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:50:14 -0400
+Processing by FruitsController#index as HTML
+  [1m[36mFruit Load (1.3ms)[0m  [1mSELECT "fruits".* FROM "fruits"[0m
+  Rendered fruits/index.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 132ms (Views: 129.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:50:31 -0400
+Processing by FruitsController#search as HTML
+Redirected to http://0.0.0.0:3000/fruits
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:50:31 -0400
+Processing by FruitsController#index as HTML
+  [1m[35mFruit Load (0.6ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 181ms (Views: 179.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:52:00 -0400
+Processing by FruitsController#search as HTML
+Redirected to http://0.0.0.0:3000/fruits
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:52:00 -0400
+Processing by FruitsController#index as HTML
+  [1m[36mFruit Load (0.5ms)[0m  [1mSELECT "fruits".* FROM "fruits"[0m
+  Rendered fruits/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 13:52:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"search"}
+  [1m[35mFruit Load (0.4ms)[0m  SELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 51ms
+
+ActiveRecord::RecordNotFound (Couldn't find Fruit with 'id'=search):
+  app/controllers/fruits_controller.rb:77:in `set_fruit'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (25.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (56.5ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2015-03-16 13:52:59 -0400
+
+ActionController::RoutingError (No route matches [GET] "/search"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (13.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (31.7ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2015-03-16 13:53:13 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/search"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (21.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (42.8ms)
+
+
+Started GET "/fruits.json" for 127.0.0.1 at 2015-03-16 13:54:27 -0400
+Processing by FruitsController#index as JSON
+  [1m[35mFruit Load (0.5ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.json.jbuilder (82.0ms)
+Completed 200 OK in 95ms (Views: 86.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2015-03-16 13:56:22 -0400
+
+ActionController::RoutingError (No route matches [GET] "/search"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (20.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (41.6ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 13:57:10 -0400
+Processing by FruitsController#index as HTML
+  [1m[36mFruit Load (0.6ms)[0m  [1mSELECT "fruits".* FROM "fruits"[0m
+  Rendered fruits/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 205ms (Views: 202.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2015-03-16 13:57:13 -0400
+Processing by FruitsController#new as HTML
+  Rendered fruits/_form.html.erb (473.7ms)
+  Rendered fruits/new.html.erb within layouts/application (476.2ms)
+Completed 200 OK in 576ms (Views: 575.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits" for 127.0.0.1 at 2015-03-16 13:59:18 -0400
+Processing by FruitsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oDoo5v+oLWSWZ6ug95HhByjVJNpzr0CeitZGF6sHGKoWES/UVoDqOnAn/cr74+yLcGdOnplTwAMkz+EFDYh65g==", "fruit"=>{"species"=>"apple", "organic"=>"1"}, "commit"=>"Create Fruit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "fruits" ("species", "organic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["species", "apple"], ["organic", "t"], ["created_at", "2015-03-16 17:59:18.900329"], ["updated_at", "2015-03-16 17:59:18.900329"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/fruits/61
+Completed 302 Found in 11ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/fruits/61" for 127.0.0.1 at 2015-03-16 13:59:18 -0400
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"61"}
+  [1m[36mFruit Load (0.3ms)[0m  [1mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = ? LIMIT 1[0m  [["id", 61]]
+  Rendered fruits/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 119ms (Views: 108.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2015-03-16 14:00:09 -0400
+Processing by FruitsController#new as HTML
+  Rendered fruits/_form.html.erb (3.9ms)
+  Rendered fruits/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 186ms (Views: 166.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/fruits" for 127.0.0.1 at 2015-03-16 14:00:13 -0400
+Processing by FruitsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9Mi5B2/bacd3RJInwvn+tzGrNjKmBQAamzFZWz9V2FtC4741xvOumZEExE3Oi/M7aRlcdkz5gIc1KP5Jmdq6Fw==", "fruit"=>{"species"=>"banana", "organic"=>"1"}, "commit"=>"Create Fruit"}
+Completed 500 Internal Server Error in 2ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/fruits_controller.rb:37:in `create'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (22.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (45.2ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:04:15 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 195ms (Views: 172.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:04:20 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vXGW/xTjklV2gN28J4OBz5AdZg2hI6Lfxr4VHJE0i00LWpHNvctVC5DAi9Yr8YxDyK8MSUvfIkJop7ION7vpAQ==", "species"=>"apple", "commit"=>"Search"}
+Redirected to http://0.0.0.0:3000/fruits
+Completed 302 Found in 14ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/fruits" for 127.0.0.1 at 2015-03-16 14:04:20 -0400
+Processing by FruitsController#index as HTML
+  [1m[35mFruit Load (0.4ms)[0m  SELECT "fruits".* FROM "fruits"
+  Rendered fruits/index.html.erb within layouts/application (79.4ms)
+Completed 200 OK in 130ms (Views: 128.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:05:08 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 121ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:05:14 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:05:17 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ExkJGm9qONziu4J1ac3M6Iev3zMGvSQMEyJb2u/8QKClMg4oxkL/ggT71B9lv8Fk3x21d+xBpJG9O/zISXMi7A==", "species"=>"pineapple", "commit"=>"Search"}
+  [1m[36mFruit Load (0.6ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?[0m  [["species", "pineapple"]]
+  Rendered fruits/list.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 82ms (Views: 63.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:06:34 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 124ms (Views: 122.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:06:36 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 158ms (Views: 157.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:06:39 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HIFOuLjG0AFaZp2dmzX3wyjrvS5pouYnm+5dZRNSHKmqqkmKEe4XX7wmy/eXR/pPcFnXaoNeZro19/p3td1+5Q==", "species"=>"pineapple", "commit"=>"Search"}
+  [1m[35mFruit Load (0.2ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?  [["species", "pineapple"]]
+  Rendered fruits/list.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:07:42 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 119ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:07:47 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WXqkDGljjo1qPVA4EwbmCP7B19DGtKf1GrcOugIcbonvUaM+wEtJ04x9BlIfdOuEpnO9lCxIJ2i0rqmopJMMxQ==", "species"=>"apple", "commit"=>"Search"}
+  [1m[36mFruit Load (7.8ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?[0m  [["species", "apple"]]
+  Rendered fruits/list.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 70ms (Views: 61.0ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:11:22 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:12:02 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2..4)):
+    4:   <%= form_tag("/fruits/search", method: "post") do %>
+    5:   <%= label_tag(:species, "Search by species:") %>
+    6:   <%= text_field_tag(:species) %>
+    7:   <%= radio_button_tag(:organic) %>
+    8: <%= label_tag(:organic, "Organic") %>
+    9: <%= radio_button_tag(:organic) %>
+   10: <%= label_tag(:organic, "Not organic") %>
+  app/views/fruits/search.html.erb:7:in `block in _app_views_fruits_search_html_erb___463894020312168347_70321660562540'
+  app/views/fruits/search.html.erb:4:in `_app_views_fruits_search_html_erb___463894020312168347_70321660562540'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (55.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (28.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (76.1ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:12:49 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 115ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:13:14 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"twdKXCmnN8GwWqysr3ILThGZj0U/yY2399ih3ObBejUBLE1ugI/wn1Ya+sajAAbCSSvlAdU1DSpZwQbOQE4YeQ==", "species"=>"orange", "organic"=>"Organic", "commit"=>"Search"}
+  [1m[35mFruit Load (1.0ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?  [["species", "orange"]]
+  Rendered fruits/list.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 165ms (Views: 163.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:13:49 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:13:51 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 114ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:14:31 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 168ms (Views: 166.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:14:36 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jmpE7PTSzAULDZUsvZeGYi8N8+a2iopRWRj5gqz3HTg4QUPeXfoLW+1Nw0ax5Yvud7+Zolx2Csz3AV6QCnh/dA==", "species"=>"orange", "organic"=>"false", "commit"=>"Search"}
+  [1m[36mFruit Load (0.4ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ? AND "fruits"."organic" = ?[0m  [["species", "orange"], ["organic", "false"]]
+  Rendered fruits/list.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 64ms (Views: 48.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:14:50 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 166ms (Views: 164.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:14:55 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F/j24aVJYyYw6GQUC5k7AZKSQ2AJ5JY1gQ6gwGiLfOWh0/HTDGGkeNaoMn4H6zaNyiApJOMYFqgvFwfSzgQeqQ==", "species"=>"orange", "organic"=>"true", "commit"=>"Search"}
+  [1m[35mFruit Load (0.4ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."organic" = ?  [["organic", "true"]]
+  Rendered fruits/list.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 128ms (Views: 112.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:14:57 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 81ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:15:22 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 126ms (Views: 124.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:15:26 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l7MBSmfhvwNPVFSIXnF77mqSEB0LcYEvhILnzPWIuhshmAZ4zsl4XakUAuJSA3ZiMiB6WeGNAbIqm0DeUwfYVw==", "species"=>"orange", "organic"=>"true", "commit"=>"Search"}
+  [1m[36mFruit Load (0.4ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ?[0m  [["species", "orange"]]
+  Rendered fruits/list.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 185ms (Views: 169.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:16:47 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 106ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:16:49 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:16:53 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dn+tN8CKQMdwjb6fvMXQ29S1Oqt62VvPko7SkpZfZ5u4VKoFaaKHmZbN6PWwt91XjAdQ75Al21I8l3WAMNAF1w==", "species"=>"orange", "organic"=>"true", "commit"=>"Search"}
+  [1m[35mFruit Load (0.3ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ? AND "fruits"."organic" = 't'  [["species", "orange"]]
+  Rendered fruits/list.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 134ms (Views: 126.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:16:59 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:17:00 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 105ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:17:01 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 159ms (Views: 158.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:17:07 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V0FXYTLoIgkNQ0ztwAjnJ8yfJaz5YoRRLHPXVDZl6LLhalBTm8DlV+sDGofMeuqrlC1P6BOeBMyCanBGkOqK/g==", "species"=>"pineapple", "organic"=>"false", "commit"=>"Search"}
+  [1m[36mFruit Load (0.3ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ? AND "fruits"."organic" = 'f'[0m  [["species", "pineapple"]]
+  Rendered fruits/list.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:17:36 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 166ms (Views: 163.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:17:38 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Y/puRTnAR9603TuYfRwUXRIgnRJ24X+PGtRtxrbq6pLpO6Lvc/GQZyTIoRthn3dLProMKMnBWOScvalvFTJ5g==", "species"=>"", "commit"=>"Search"}
+  [1m[35mFruit Load (0.2ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ? AND "fruits"."organic" = 'f'  [["species", ""]]
+  Rendered fruits/list.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:17:42 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V0FXYTLoIgkNQ0ztwAjnJ8yfJaz5YoRRLHPXVDZl6LLhalBTm8DlV+sDGofMeuqrlC1P6BOeBMyCanBGkOqK/g==", "species"=>"pineapple", "organic"=>"false", "commit"=>"Search"}
+  [1m[36mFruit Load (0.2ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ? AND "fruits"."organic" = 'f'[0m  [["species", "pineapple"]]
+  Rendered fruits/list.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 115ms (Views: 112.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 14:19:46 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 181ms (Views: 176.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 14:19:52 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2vTgtf6ELE9d3iOGTmHzpumhMbxrR0v3w375EXBwlK9s3+eHV6zrEbuedexCE/4qsRNb+IG7y2ptZ14D1v/24w==", "species"=>"apple", "organic"=>"true", "commit"=>"Search"}
+  [1m[35mFruit Load (1.4ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ? AND "fruits"."organic" = 't'  [["species", "apple"]]
+  Rendered fruits/list.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-16 16:57:23 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-16 16:57:26 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:57:26 -0400
+
+SyntaxError (/Users/stevenkaplan/Dropbox/cosi166b_stevekaplan/railsform/app/controllers/fruits_controller.rb:99: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/fruits_controller.rb:99: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (20.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (51.2ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:57:48 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 189ms (Views: 166.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fruits-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-16 16:57:48 -0400
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 16:58:00 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xv/8BWKkaRLxqM1Rd2Eb7RUb8xLrMi7e+Gj4ru4+nMVw1Ps3y4yuTBfomzt7ExZhTamZVgHOrkNWcV+8SLH+iQ==", "species"=>"apple", "and_or"=>"and", "organic"=>"true", "commit"=>"Search"}
+  [1m[35mFruit Load (0.8ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ? AND "fruits"."organic" = 't'  [["species", "apple"]]
+  Rendered fruits/list.html.erb within layouts/application (71.2ms)
+Completed 200 OK in 127ms (Views: 110.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:58:06 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 102ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:58:12 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 16:58:14 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OwxdRhJsxhhkWt0iNU+ta5HsF8VLdV3owzgmNjh//6KNJ1p0u0QBRoIai0g5PaDnyV59gaGJ3XVtIYEknvCd7g==", "species"=>"", "and_or"=>"", "commit"=>"Search"}
+  [1m[36mFruit Load (0.4ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE ("fruits"."species" = '' OR "fruits"."organic" = 'f')[0m
+  Rendered fruits/list.html.erb within layouts/application (57.2ms)
+Completed 200 OK in 152ms (Views: 150.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:58:18 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:58:20 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:58:32 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 108ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:58:57 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 110ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 16:59:02 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UrNm2ZMf0A/E3ughGZLeWs9R10keTOQX9uSDzsz+8aHkmGHrOjcXUSKevksV4NPWl+O9DfSwZIpY/STcanGT7Q==", "species"=>"", "and_or"=>"", "organic"=>"true", "commit"=>"Search"}
+  [1m[35mFruit Load (0.3ms)[0m  SELECT "fruits".* FROM "fruits" WHERE ("fruits"."species" = '' OR "fruits"."organic" = 't')
+  Rendered fruits/list.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 63ms (Views: 57.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:59:05 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 102ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 16:59:06 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 154ms (Views: 153.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 16:59:18 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LbaHF67pd56aoXMBRM75+vErBgFT7nvFNqXZHr1SJuWbnYAlB8GwwHzhJWtIvPR2qZlsRbkS+1iYvH4MG91EqQ==", "species"=>"banana", "and_or"=>"OR", "organic"=>"false", "commit"=>"Search"}
+  [1m[36mFruit Load (0.4ms)[0m  [1mSELECT "fruits".* FROM "fruits" WHERE ("fruits"."species" = 'banana' OR "fruits"."organic" = 'f')[0m
+  Rendered fruits/list.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 17:00:29 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 102ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 17:01:01 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 17:01:16 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fruits/search" for 127.0.0.1 at 2015-03-16 17:01:24 -0400
+Processing by FruitsController#search as HTML
+  Rendered fruits/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 103ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fruits/search" for 127.0.0.1 at 2015-03-16 17:01:34 -0400
+Processing by FruitsController#list as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t33j31yyuVPdsNantbO+4IPugIoIumw/c0DqVGfP9AMBVuTt9Zp+DTvwgM25wbNs21zqzuJG7KLdWU1GwUCWTw==", "species"=>"orange", "and_or"=>"AND", "organic"=>"true", "commit"=>"Search"}
+  [1m[35mFruit Load (0.3ms)[0m  SELECT "fruits".* FROM "fruits" WHERE "fruits"."species" = ? AND "fruits"."organic" = 't'  [["species", "orange"]]
+  Rendered fruits/list.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.3ms)
