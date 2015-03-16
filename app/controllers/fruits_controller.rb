@@ -4,6 +4,7 @@ class FruitsController < ApplicationController
 
 # get /fruits/search 
   def search
+<<<<<<< HEAD
   end
 
   #post /fruits/search
